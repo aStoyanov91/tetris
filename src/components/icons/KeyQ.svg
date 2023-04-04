@@ -1,0 +1,19 @@
+<svg width="200" height="90" viewBox="0 0 200 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_122_29)">
+<rect width="200" height="90" rx="30" fill="#131313"/>
+<rect width="200" height="90" rx="30" fill="#131313"/>
+<path d="M109.488 33.44C107.536 30.944 104.736 29.696 101.088 29.696C97.44 29.696 94.64 30.944 92.688 33.44C90.768 35.936 89.808 39.616 89.808 44.48C89.808 49.344 90.768 53.024 92.688 55.52C94.64 58.016 97.44 59.264 101.088 59.264C104.736 59.264 107.536 58.016 109.488 55.52C111.44 53.024 112.416 49.344 112.416 44.48C112.416 39.616 111.44 35.936 109.488 33.44ZM101.088 62.48C96.384 62.48 92.672 60.912 89.952 57.776C87.264 54.608 85.92 50.176 85.92 44.48C85.92 38.784 87.264 34.368 89.952 31.232C92.672 28.064 96.384 26.48 101.088 26.48C105.824 26.48 109.536 28.064 112.224 31.232C114.944 34.368 116.304 38.784 116.304 44.48C116.304 48.416 115.584 51.776 114.144 54.56C112.736 57.312 110.736 59.328 108.144 60.608C108.112 60.608 108.096 60.624 108.096 60.656C108.096 60.72 108.112 60.752 108.144 60.752C112.4 61.776 115.904 63.984 118.656 67.376C118.944 67.728 118.976 68.112 118.752 68.528C118.528 68.976 118.176 69.2 117.696 69.2C116.256 69.2 115.04 68.592 114.048 67.376C112.512 65.584 110.768 64.32 108.816 63.584C106.864 62.848 104.288 62.48 101.088 62.48Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_i_122_29" x="-7" y="-9" width="207" height="99" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-7" dy="-9"/>
+<feGaussianBlur stdDeviation="15"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.245833 0 0 0 0 0.245833 0 0 0 0 0.245833 0 0 0 0.88 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_122_29"/>
+</filter>
+</defs>
+</svg>
