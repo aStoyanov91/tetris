@@ -79,6 +79,7 @@ const GameController = ({
       onKeyUp={onKeyUp}
       autoFocus
       ref={inputRef}
+      readOnly="readonly"
     />
   );
 };
