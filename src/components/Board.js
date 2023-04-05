@@ -1,4 +1,4 @@
-import BoardCell from "/src/components/BoardCell";
+import BoardCell from "@/components/BoardCell";
 
 const Board = ({ board }) => {
   const boardStyles = {

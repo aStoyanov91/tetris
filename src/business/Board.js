@@ -1,6 +1,6 @@
-import { defaultCell } from "/src/business/Cell";
-import { movePlayer } from "/src/business/PlayerController";
-import { transferToBoard } from "/src/business/Tetrominoes";
+import { defaultCell } from "@/business/Cell";
+import { movePlayer } from "@/business/PlayerController";
+import { transferToBoard } from "@/business/Tetrominoes";
 
 export const buildBoard = ({ rows, columns }) => {
   const builtRows = Array.from({ length: rows }, () =>
@@ -9,7 +9,7 @@ export const buildBoard = ({ rows, columns }) => {
 
   return {
     rows: builtRows,
-    size: { rows, columns }
+    size: { rows, columns },
   };
 };
 
@@ -45,7 +45,7 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   const dropPosition = findDropPosition({
     board,
     position,
-    shape: tetromino.shape
+    shape: tetromino.shape,
   });
 
   // Place ghost
@@ -57,7 +57,7 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
     isOccupied: player.isFastDropping,
     position: dropPosition,
     rows,
-    shape: tetromino.shape
+    shape: tetromino.shape,
   });
 
   // Place the piece.
@@ -68,7 +68,7 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
       isOccupied: player.collided,
       position,
       rows,
-      shape: tetromino.shape
+      shape: tetromino.shape,
     });
   }
 
@@ -98,7 +98,7 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   // Return the next board
   return {
     rows,
-    size: { ...board.size }
+    size: { ...board.size },
   };
 };
 
